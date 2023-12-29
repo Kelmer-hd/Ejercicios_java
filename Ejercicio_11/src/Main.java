@@ -6,7 +6,6 @@ public class Main {
         System.out.println("El area es: " +calcularArea(2));
         System.out.println("El area es: " + calcularArea(10));
     }
-
     public static double calcularArea(int radio){
         return Math.PI * Math.pow(radio, 2);
     }

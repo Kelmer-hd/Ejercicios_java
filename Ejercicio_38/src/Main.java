@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 /*
     Construir un programa que simule el juego de la adivinanza de un número. El ordenador debe generar
     un número aleatorio entre 1 y 100 y el usuario tiene cinco oportunidades para acertarlo.
@@ -32,7 +31,6 @@ public class Main {
                 return; // Salir del programa
             }
         }
-
         System.out.println("Lo siento, has agotado tus intentos. El número era " + numeroAleatorio + ".");
     }
 }
